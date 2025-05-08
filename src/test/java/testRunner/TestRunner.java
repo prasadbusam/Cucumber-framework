@@ -9,10 +9,9 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="./Features/Login.feature",
+		features="./Features/Form.feature",
 		glue="stepDefinition",
 		dryRun=false
-	
 		
 		)
 
